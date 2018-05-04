@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SculptorWebApi", "SculptorWebApi\SculptorWebApi.csproj", "{9228F6CF-474C-434C-B882-8EDF7031BFBF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D1F2450-9D4B-4B17-89AE-DE3889D0F868} = {6D1F2450-9D4B-4B17-89AE-DE3889D0F868}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SculptorWebApi.Tests", "SculptorWebApi.Tests\SculptorWebApi.Tests.csproj", "{9E4631BB-3629-4F44-9819-63DC0B9503B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteConnection", "RemoteConnection\RemoteConnection.csproj", "{6D1F2450-9D4B-4B17-89AE-DE3889D0F868}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9228F6CF-474C-434C-B882-8EDF7031BFBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9228F6CF-474C-434C-B882-8EDF7031BFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9228F6CF-474C-434C-B882-8EDF7031BFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9228F6CF-474C-434C-B882-8EDF7031BFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4631BB-3629-4F44-9819-63DC0B9503B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4631BB-3629-4F44-9819-63DC0B9503B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4631BB-3629-4F44-9819-63DC0B9503B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4631BB-3629-4F44-9819-63DC0B9503B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1F2450-9D4B-4B17-89AE-DE3889D0F868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1F2450-9D4B-4B17-89AE-DE3889D0F868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1F2450-9D4B-4B17-89AE-DE3889D0F868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1F2450-9D4B-4B17-89AE-DE3889D0F868}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
